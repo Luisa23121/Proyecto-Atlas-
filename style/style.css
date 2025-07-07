@@ -566,3 +566,68 @@ footer{
 }
 
 }
+
+@media (max-width: 481px) {
+
+    .parteArriba{
+        justify-content: space-around;
+        
+    }
+
+    .parteAbajo{
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+
+        .titulo1 {
+        font-size: 33px;
+    }
+
+        .parrafo1 {
+        font-size: 15px;
+    }
+
+
+    .titulo2 {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+        .caja2 {
+        gap: 60px;
+        padding-left: 15px;
+        flex-direction: column-reverse;
+    }
+
+        .imagenCom {
+        margin-left: 150px;
+        width: 50%;
+    }
+
+    .imgTab{
+        margin-left: 55px;
+    }
+
+    .titulo4{
+        font-size: 30px;
+    }
+
+    .titulo5{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .cajaBlanca{
+        width: 300px;
+    }
+
+    .cajaAzul{
+        width: 250px;
+    }
+
+    .cajaContact {
+    margin-left: 0px;
+}
+
+
+}
