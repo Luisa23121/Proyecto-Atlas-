@@ -529,4 +529,40 @@ footer{
     font-size: 16px;
     width: 100%; /* para que ocupe todo el ancho si quieres */
     }
+
+        .caja2 {
+        gap: 0px;
+        padding:  0px;
+    padding-left: 30px;
+        }
+
+    .imgTab {
+    padding-top: 130px;
+    width: 60%;
+    height: 60%;
+            margin-left: 75px;
+    
+    }
+
+    .parrafo5 {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+    .caja3 {
+        display: flex;
+        padding: 50px 0px 60px 22px;
+        flex-direction: column;
+    }
+    
+    
+.cajaPrecios {
+
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 50px;
+}
+
 }
