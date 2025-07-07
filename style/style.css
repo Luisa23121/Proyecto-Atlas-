@@ -1,0 +1,532 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../assets/banner-bk.jpg);
+    
+    height: 640px;
+
+}
+
+.parteArriba{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+}
+
+.img1{
+    width: 80px;
+    margin-left: 62px;
+}
+
+.text{
+    margin-top: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.parteAbajo{
+margin-left: 130px;
+}
+
+.parteTi{
+    width: 40%;
+}
+
+.titulo1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    
+}
+
+.parrafo1{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 100;
+    width: 62%;
+    font-size: 20px;
+}
+
+.boton1{
+    margin-top: 40px;
+    background-color: #00ffad;
+    color: #192440;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+}
+
+/* .seccion1{
+
+} */
+
+.titulo2{
+    color: #292b2c;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.caja1{
+    padding: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cajatext{
+    
+    text-align: center;
+}
+
+
+
+.titulo3{
+    color: #3a2d2c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+.parrafo2{
+    line-height: 1.5;
+    margin-top: 10px;
+    color: #3a2d2c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 300px;
+    
+}
+
+.caja2{
+    background: linear-gradient(170deg, white 60%, #00ffad 0%);
+    display: flex;
+    padding: 30px 80px; 
+
+}
+
+.imagenCom{
+width: 45%;
+}
+
+.imgTab{
+    width: 49%;
+}
+
+.titulo4{
+    
+    color: #292b2c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.parrafo3{
+    margin-top: 20px;
+    color: #3a2d2c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 45%;
+    line-height: 1.5;
+}
+
+.boton2{
+    margin-top: 35px;
+    background-color: #192440;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+}
+
+.caja3{
+    gap: 40px;
+    padding-top: 170px;
+    justify-content: center; 
+    
+    display: flex;
+    background-color: #00ffad;
+    padding: 170px 0px 60px 130px;
+}
+
+.parrafo5{
+    color: #3a2d2c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 80%;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+
+/* seccion */
+
+.titulo5{
+    text-align: center;
+    padding-top: 40px;
+    color: #292b2c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+
+
+
+.cajaBlanca{
+    background-color: white;
+    width: 400px;
+    text-align: center;
+}
+
+.cajaAzul{
+    background-color: #192440;
+    width: 300px;
+    text-align: center;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    
+}
+
+.titulo6{
+    padding-top: 50px;
+    color:  #292b2c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+.cajaPrecios{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.parrafo4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signo{
+    font-size: 20px;
+}
+
+.num{
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.sim{
+    font-size: 20px;
+}
+
+.lista1{
+    list-style: none;
+    padding: 20px;
+    line-height: 1.9;
+}
+
+.list1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.boton3{
+    background-color: white;
+    color: #192440;
+    border-radius: 20px;
+    border-color: #16203b;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.titulo7{
+    padding-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.parrafo6{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista2{
+    color: white;
+    list-style: none;
+    padding: 20px;
+    line-height: 1.9;
+}
+
+.boton4{
+    background-color:#00ffad;
+    color: #192440;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-color:#16203b;
+    border-radius: 20px;
+}
+
+
+/* seccion 3 */
+
+.seccion3{
+    background-color: #eceeef;
+    display: flex; 
+    justify-content: space-around;
+    padding: 70px;
+}
+
+/* seccion 4 */ 
+
+.seccion4{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(../assets/contact-bk.jpg);
+    display: flex;
+}
+
+.cajaContact{
+    margin-left: 60px;
+}
+
+.titulo8{
+    color: white;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+}
+
+.parrafo7{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 55%;
+    line-height: 1.6;
+    padding-top: 30px;
+}
+
+.lista3{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+    line-height: 1.9;
+}
+
+.form-container {
+    width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-row {
+    display: flex;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #00ffc3;
+}
+
+input, textarea {
+    background-color: transparent;
+    border: 2px solid #00ffc3;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #00ffd9;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+.boton5{
+    background-color: #00ffc3;
+    color: #222;
+    border: none;
+    padding: 15px 235px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    /* transition: 0.3s; */
+}
+
+/* .boton5:hover {
+    background-color: #00e6b2;
+} */
+
+/* footer */
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #192440;
+    color: white;
+}
+
+.imagenLogos{
+    width: 20%;
+}
+
+@media (max-width: 1279px){
+
+    .titulo1{
+    font-size: 60px;
+    }
+
+    .parrafo1{
+        font-size: 17px;
+    }
+
+    .caja1{
+        padding: 20px;
+        padding-bottom: 80px;
+    }
+
+    .parrafo3{
+        width: auto;
+    }
+
+    .boton2{
+        margin-top: 17px;
+    }
+
+    .caja2{
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 921px) {
+    .titulo2{
+        font-size: 35px;
+    }
+
+    .img2{
+    width: 120px; 
+    }
+
+    .caja1{
+        padding-bottom: 120px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
+    .caja2{
+        gap: 60px;
+        padding: 20px 70px 120px;
+    }
+
+    .imagenCom{
+        width: 50%;
+    }
+
+    .caja3{
+        padding: 50px 0px 60px 22px;
+    }
+
+    .seccion3{
+        padding: 30px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .seccion4{
+        flex-direction: column;
+        padding: 30px 0px 30px 30px ;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header{
+        /* background-size: contain;    se ajusta sin recortarse */
+    background-position: top;  
+    }
+
+    .parteArriba{
+        padding: 0px;
+    }
+
+    .img1{
+        margin-left: 10px;
+    }
+
+    .text{
+        margin-left: 20px;
+    }
+
+    .titulo1{
+        font-size: 40px;
+    }
+
+    .parteAbajo {
+    margin-left: 70px;
+    padding-top: 50px;
+}
+
+    .form-container {
+    width: 100%;
+    padding: 20px;
+    }
+
+    .input-row {
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .boton5 {
+    padding: 12px 40px; /* más pequeño en móviles */
+    font-size: 16px;
+    width: 100%; /* para que ocupe todo el ancho si quieres */
+    }
+}
